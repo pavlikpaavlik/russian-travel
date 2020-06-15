@@ -12,4 +12,4 @@
 2. Добавление анимаций.
 3. Добавление фотографий в галерею.
 
-https://github.com/pavlikpaavlik/russian-travel
+https://pavlikpaavlik.github.io/russian-travel/
