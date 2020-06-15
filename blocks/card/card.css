@@ -1,0 +1,23 @@
+@import url(./__title/card__title.css);
+@import url(./__image/card__image.css);
+@import url(./__links/card__links.css);
+@import url(./__url/card__url.css);
+@import url(./__website/card__website.css);
+@import url(./__grid-container/card__grid-container.css);
+@import url(./__paragraph/card__paragraph.css);
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(340px,max-content));
+  grid-template-rows: repeat(2, minmax(min-content,max-content));
+  grid-gap: 48px 4%;
+}
+
+@media (max-width: 767px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

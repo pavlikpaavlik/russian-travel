@@ -1,0 +1,18 @@
+.card__website {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 122%;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+.card__website:hover {
+  opacity: .8;
+}
+
+@media (max-width: 767px) {
+  .card__website {
+    display: none;
+  }
+}

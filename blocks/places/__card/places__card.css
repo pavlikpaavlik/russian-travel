@@ -1,0 +1,40 @@
+.places__card {
+    margin: 80px auto 0 ;
+  }
+  
+  .places__card:first-of-type {
+    margin: 92px auto 0 ;
+  }
+  
+  .places__card:last-of-type {
+    margin: 80px auto 92px ;
+  }
+  
+  @media (max-width: 1023px) and (min-width: 768px) {
+    .places__card {
+      margin: 72px auto 0 ;
+    }
+  
+    .places__card:first-of-type {
+      margin: 88px auto 0 ;
+    }
+  
+    .places__card:last-of-type {
+      margin: 72px auto 88px ;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .places__card {
+      margin: 48px auto 0 ;
+    }
+  
+    .places__card:first-of-type {
+      margin: 64px auto 0 ;
+    }
+  
+    .places__card:last-of-type {
+      margin: 48px auto 64px ;
+    }
+  }
+  

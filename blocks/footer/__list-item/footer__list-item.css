@@ -1,0 +1,11 @@
+
+@media (max-width: 760px) {
+    .footer__list-item {
+      margin: 32px 0 0;
+    }
+  
+    .footer__list-item:first-of-type {
+      margin: 64px 0 0;
+    }
+  }
+  
