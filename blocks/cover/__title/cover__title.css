@@ -4,8 +4,9 @@
     font-size: 72px;
     line-height: 106%;
     text-align: center;
-    z-index: 2;
     margin: 0 0 32px 0;
+    color: #FFFFFF;
+    z-index: 2;
   }
   
   @media (max-width: 760px) {
