@@ -9,9 +9,16 @@
   
   @media (max-width: 768px) {
     .lead__subtitle {
+      font-size: 30px;
+      line-height: 120%;
+      margin: 16px 0 0;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    .lead__subtitle {
       font-size: 16px;
       line-height: 125%;
-      min-width: 288px;
       margin: 16px 0 0;
     }
   }

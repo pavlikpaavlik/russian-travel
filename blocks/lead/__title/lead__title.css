@@ -14,11 +14,10 @@
     }
   }
   
-  @media (max-width:768px) {
+  
+  @media (min-width:320px) and (max-width: 767px) {
     .lead__title {
-      min-width: 288px;
       font-size: 40px;
       line-height: 110%;
     }
   }
-  
